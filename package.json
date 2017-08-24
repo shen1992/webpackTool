@@ -1,0 +1,28 @@
+{
+  "name": "shen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.demo.config.js",
+    "build": "NODE_ENV=production webpack && cp -r assets lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shen1992/webpackTool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shen1992/webpackTool/issues"
+  },
+  "homepage": "https://github.com/shen1992/webpackTool#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "inline-source-map": "^0.6.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
